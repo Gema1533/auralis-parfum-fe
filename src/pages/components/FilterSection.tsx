@@ -1,38 +1,22 @@
 import React from 'react'
+import { BiSearch } from 'react-icons/bi'
+import { IoFilterCircle } from 'react-icons/io5'
 
 const FilterSection = () => {
   return (
-    <div className="flex bg-white px-10 py-6 gap-10 rounded-sm">
-      <form className="select-item select-form">
-        <span className="title">Sort :</span>
-        <select
-          title="sort"
-          data-placeholder="9 Products/Page"
-          className="chosen-select !ms-3 border !border-black rounded-2xl !py-2 !px-3"
-        >
-          <option value="2">9 Products/Page</option>
-          <option value="1">12 Products/Page</option>
-          <option value="3">10 Products/Page</option>
-          <option value="4">8 Products/Page</option>
-          <option value="5">6 Products/Page</option>
-        </select>
-      </form>
-      <form className="filter-choice select-form">
-        <span className="title">Sort by : </span>
-        <select
-          title="sort-by"
-          data-placeholder="Price: Low to High"
-          className="chosen-select !ms-3 border !border-black rounded-2xl !py-2 !px-3"
-        >
-          <option value="1">Price: Low to High</option>
-          <option value="2">Sort by popularity</option>
-          <option value="3">Sort by average rating</option>
-          <option value="4">Sort by newness</option>
-          <option value="5">Sort by price: low to high</option>
-        </select>
-      </form>
-  
-    </div>
+      <div className="flex bg-white px-5 py-4 gap-10 rounded-sm items-center justify-between">
+        <div>
+          <IoFilterCircle className="text-[2em] cursor-pointer" />
+        </div>
+        <div className="flex items-center gap-x-3">
+          <BiSearch className="text-[1.5em]" />
+          <input
+            type="search"
+            placeholder="Search"
+            className="border !text-zinc-500 !rounded-lg !h-10 !border-black"
+          />
+        </div>
+      </div>
   )
 }
 

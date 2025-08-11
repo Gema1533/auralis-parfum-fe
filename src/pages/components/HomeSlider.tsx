@@ -6,7 +6,7 @@ import { A11y, Autoplay, Pagination, Scrollbar } from 'swiper/modules'
 const HomeSlider = () => {
   return (
     <div className="home-slider  style1 rows-space-30">
-      <div className="container">
+      <div className="container !p-0">
         <div>
           <Swiper
             modules={[Pagination,Autoplay]}

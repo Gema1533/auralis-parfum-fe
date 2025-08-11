@@ -2,7 +2,7 @@ import React from 'react'
 
 const LongBanner1 = () => {
   return (
-    <div className="banner-wrapp ">
+    <div className="banner-wrapp mt-5">
       <div className="banner">
         <div className="item-banner style6">
           <div className="inner">

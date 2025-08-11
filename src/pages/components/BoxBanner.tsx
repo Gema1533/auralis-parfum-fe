@@ -3,7 +3,7 @@ import React from 'react'
 const BoxBanner = () => {
   return (
     <div className="banner-wrapp rows-space-35">
-      <div className="container">
+      <div className="container !p-0">
         <div className="grid gap-x-10 grid-cols-12 ">
           <div className="col-span-12 md:col-span-4 ">
             <div className="banner">

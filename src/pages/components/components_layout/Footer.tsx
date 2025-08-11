@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="row ">
             <div className="box-footer col-xs-12 col-sm-4 col-md-4 col-lg-4 hidden-sm hidden-md hidden-lg">
               <div className="stelina-newsletter style1">
-                <div className="flex justify-center my-10">
+                <div className="flex justify-center mb-6">
                     <a href="/">
                     <img
                       src="/assets/img/logo/mainLogo1.png"
@@ -23,8 +23,8 @@ const Footer = () => {
                 </div>
                 <div className="newsletter-form-wrap">
                   <div className="list">
-                    Sign up for our free video course and <br /> urban garden
-                    inspiration
+                    <span className='font-bold'>Location : </span>  <br/>
+                    Ds. Bitungsari Kp. Bitung Tengah Rt. 02/04 Kec. ciawi Kab. Bogor 16720, Indonesia
                   </div>
                   <input
                     type="email"
@@ -72,8 +72,8 @@ const Footer = () => {
                 </div>
                 <div className="newsletter-form-wrap">
                   <div className="list">
-                    Sign up for our free video course and <br /> urban garden
-                    inspiration
+                    <span className='font-bold'>Location : </span>  <br/>
+                    Ds. Bitungsari Kp. Bitung Tengah Rt. 02/04 Kec. ciawi Kab. Bogor 16720, Indonesia
                   </div>
                   <ul className="flex justify-center items-center !mb-10 gap-20 text-[2em]">
                   <li className="">

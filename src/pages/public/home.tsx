@@ -11,10 +11,10 @@ const Home = () => {
       <HomeSlider />
       <BoxBanner/>
       <ListProduct/>
+      <div className='mt-5'>
       <LongBanner1/>
-
+      </div>
       <BoxDesc/>
-      
     </div>
   )
 }

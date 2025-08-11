@@ -10,19 +10,9 @@ export default function Document() {
           src="/assets/js/jquery-1.12.4.min.js"
           strategy="beforeInteractive"
         />
-        <Script
-          src="/assets/js/jquery.plugin-countdown.min.js"
-          strategy="afterInteractive"
-        />
-        <Script
-          src="/assets/js/jquery-countdown.min.js"
-          strategy="afterInteractive"
-        />
+
         <Script src="/assets/js/bootstrap.min.js" strategy="afterInteractive" />
-    {/*     <Script
-          src="/assets/js/owl.carousel.min.js"
-          strategy="afterInteractive"
-        /> */}
+  
         <Script
           src="/assets/js/magnific-popup.min.js"
           strategy="afterInteractive"
